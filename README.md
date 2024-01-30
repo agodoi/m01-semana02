@@ -67,3 +67,33 @@ Adicionando um **método write** no **objeto document** para puxar o nome do nav
 	</body>
 </html>
 ```
+
+Voltando à questão sobre o tipo de dado das variáveis, onde em JS não se define que tipo de variável está sendo declarada, segue um exemplo:
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Introdução ao Java</title>
+		<meta charset="UTF-8">
+	<head>
+
+	<body onload="iniciar()">
+		<script type="text/javascript">
+		function iniciar() {
+			document.write("<h1>" + document.title + "</h1>");
+			document.write("Olá pessoal!<br>");
+			document.write("Você está usando o navegador " + navigator.appName + " na versão " + navigator.appVersion);
+			var x = "Oi, tudo bem?";
+			document.write("<h1>Variáveis em JavaScript</h1>");
+			document.write("X está guardando string: " + x + "<br>");
+			x = 1 + 1;
+			document.write("X está guardando inteiro: " + x + "<br>");
+			x = 3.14;	
+			document.write("X está guardando float: " + x + "<br>");
+			
+		}
+		</script>
+	</body>
+</html>
+```
