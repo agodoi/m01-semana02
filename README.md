@@ -21,7 +21,27 @@ O JS possui:
 
 Veja a figura a seguir para entender o que é cada item:
 
-
+https://github.com/agodoi/m01-semana02/blob/main/imgs/fig01.png
 
 Outra característica importante é que suas variáveis assumem diferentes tipos de dados ao longo da programação. Em outras palavras, uma variável tipo INTEIRA pode assumir valores tipo FLOAT no meio do algoritmo.
 
+Um exemplo básico de JS é esse a seguir:
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Introdução ao Java</title>
+		<meta charset="UTF-8">
+	<head>
+
+	<body onload="iniciar()">
+		<script type="text/javascript">
+		function iniciar() {
+			document.write("<h1>" + document.title + "</h1>");
+			document.write("Olá pessoal!<br>");
+		}
+		</script>
+	</body>
+</html>
+```
