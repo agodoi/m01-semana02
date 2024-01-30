@@ -45,3 +45,25 @@ Um exemplo básico de JS é esse a seguir:
 	</body>
 </html>
 ```
+
+Adicionando um **método write** no **objeto document** para puxar o nome do navegador e sua versão.
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Introdução ao Java</title>
+		<meta charset="UTF-8">
+	<head>
+
+	<body onload="iniciar()">
+		<script type="text/javascript">
+		function iniciar() {
+			document.write("<h1>" + document.title + "</h1>");
+			document.write("Olá pessoal!<br>");
+			document.write("Você está usando o navegador " + navigator.appName + "na versão " + navigator.appVersion);
+		}
+		</script>
+	</body>
+</html>
+```
