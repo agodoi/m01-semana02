@@ -111,6 +111,8 @@ Voltando à questão sobre o tipo de dado das variáveis, **onde em JS não se d
 
 Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas.
 
+No seu computador, usando o Visual Studio, crie um novo arquivo com o nome **index.html**. Dentro deste arquivo index.html , inclua o seguinte código:
+
 ```
 <!DOCTYPE html>
 <html>
@@ -145,3 +147,11 @@ Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma ima
     </body>
 </html>
 ```
+A marcação HTML e o código JavaScript acima criarão uma tela para renderizar o jogo. Como estamos usando **Phaser.AUTO**, talvez não estejamos usando uma tela, mas sim WebGL, mas vamos nos referir a ela como tela. O que é WebGL?
+
+```
+WebGL é uma API em JavaScript, disponível a partir do novo elemento canvas da HTML5, que oferece suporte para renderização de gráficos 2D e gráficos 3D. Pode ser implementado em uma aplicação web sem a necessidade de plug-ins no navegador. A especificação foi lançada, sob versão 1.0, em 10 de fevereiro de 201.
+Se seu PC não estiver com o WebGL ativado, siga [esse tutorial](https://pt.wikihow.com/Ativar-o-WebGL) para ativá-lo.
+```
+
+No restante deste tutorial, passaremos nosso tempo nas funções preloadScenee createScene. No entanto, as funções initScenee updateSceneprovavelmente seriam usadas em um tutorial mais extenso.
