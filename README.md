@@ -109,4 +109,39 @@ Voltando à questão sobre o tipo de dado das variáveis, **onde em JS não se d
 
 ## Spritesheets
 
-Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas
+Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.min.js"></script>
+    </head>
+    <body>
+        <div id="game"></div>
+        <script>
+
+            const phaserConfig = {
+                type: Phaser.AUTO,
+                parent: "game",
+                width: 1280,
+                height: 720,
+                scene: {
+                    init: initScene,
+                    preload: preloadScene,
+                    create: createScene,
+                    update: updateScene
+                }
+            };
+
+            const game = new Phaser.Game(phaserConfig);
+
+            function initScene() {}
+            function preloadScene() {}
+            function createScene() {}
+            function updateScene() {}
+
+        </script>
+    </body>
+</html>
+```
