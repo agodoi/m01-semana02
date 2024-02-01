@@ -151,7 +151,8 @@ A marcação HTML e o código JavaScript acima criarão uma tela para renderizar
 
 ```
 WebGL é uma API em JavaScript, disponível a partir do novo elemento canvas da HTML5, que oferece suporte para renderização de gráficos 2D e gráficos 3D. Pode ser implementado em uma aplicação web sem a necessidade de plug-ins no navegador. A especificação foi lançada, sob versão 1.0, em 10 de fevereiro de 201.
-Se seu PC não estiver com o WebGL ativado, siga [esse tutorial](https://pt.wikihow.com/Ativar-o-WebGL) para ativá-lo.
 ```
+Se seu PC não estiver com o WebGL ativado, siga [esse tutorial](https://pt.wikihow.com/Ativar-o-WebGL) para ativá-lo.
+
 
 No restante deste tutorial, passaremos nosso tempo nas funções preloadScenee createScene. No entanto, as funções initScenee updateSceneprovavelmente seriam usadas em um tutorial mais extenso.
