@@ -1,8 +1,17 @@
+# Prática de computação: desenvolvendo animações com código
+
+## Objetivos
+
+Foco em lógica de programação, especialmente em aplicação de operações lógicas e aritméticas para controle de personagem no jogo, incluindo animação da imagem com sprites e utilização de funções e laços de repetição para funcionamento do jogo como um todo.
+
+## Assuntos relacionados
+- Algoritmos para a solução de problemas de baixa complexidade
+- Programação orientada a objetos
+
+## Revisão da Semana 01
 HTML --> linguagem estática para escrever documentos. Antigamente, a Internet era feita de páginas estáticas como a imagem a seguir:
 
-
 https://github.com/agodoi/m01-semana02/blob/main/imgs/088b90c_11088-1c3ely2.wvaxo2mx6r.png
-
 
 Mas hoje, o HTML sozinho não atende a WEB moderna na maoria dos casos porque queremos páginas animadas, dinâmicas, validando e autenticando dados, acessando banco de dados e se atualizando sozinhas enquanto navegamos. Então surgiu o JavaScript (JS), além de outras linguagens que não serão foco nesse módulo: PHP e Java Server Page (JSP).
 
@@ -68,7 +77,7 @@ Adicionando um **método write** no **objeto document** para puxar o nome do nav
 </html>
 ```
 
-Voltando à questão sobre o tipo de dado das variáveis, onde em JS não se define que tipo de variável está sendo declarada, segue um exemplo:
+Voltando à questão sobre o tipo de dado das variáveis, **onde em JS não se define que tipo de variável está sendo declarada**, segue um exemplo:
 
 ```
 <!DOCTYPE html>
@@ -97,3 +106,7 @@ Voltando à questão sobre o tipo de dado das variáveis, onde em JS não se def
 	</body>
 </html>
 ```
+
+## Spritesheets
+
+Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas
