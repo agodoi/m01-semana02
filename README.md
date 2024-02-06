@@ -154,3 +154,57 @@ Se seu PC não estiver com o WebGL ativado, siga [esse tutorial](https://pt.wiki
 
 
 No restante deste tutorial, passaremos nosso tempo nas funções preloadScenee createScene. No entanto, as funções initScenee updateSceneprovavelmente seriam usadas em um tutorial mais extenso.
+
+
+
+Uma função em JavaScript é um bloco de código reutilizável que executa uma tarefa específica. Ela é definida uma vez e pode ser chamada (ou invocada) múltiplas vezes, permitindo uma organização eficiente do código, modularidade e reutilização de lógica.
+
+Existem dois tipos principais de funções em JavaScript: funções nomeadas e funções anônimas.
+
+1. **Funções Nomeadas:**
+   Uma função nomeada é declarada usando a palavra-chave `function` seguida pelo nome da função e, opcionalmente, uma lista de parâmetros entre parênteses. Aqui está a sintaxe básica:
+   ```javascript
+   function nomeDaFuncao(parametro1, parametro2) {
+       // Corpo da função
+   }
+   ```
+
+   Exemplo:
+   ```javascript
+   function soma(a, b) {
+       return a + b;
+   }
+   ```
+
+   Neste exemplo, a função `soma` aceita dois parâmetros (`a` e `b`) e retorna a soma desses dois valores quando invocada.
+
+2. **Funções Anônimas:**
+   Uma função anônima é uma função sem um nome associado e pode ser atribuída a uma variável ou passada como um argumento para outra função.
+   ```javascript
+   let nomeDaVariavel = function(parametro1, parametro2) {
+       // Corpo da função
+   };
+   ```
+
+   Exemplo:
+   ```javascript
+   let multiplica = function(x, y) {
+       return x * y;
+   };
+   ```
+
+   Neste exemplo, uma função anônima é atribuída à variável `multiplica`, que aceita dois parâmetros (`x` e `y`) e retorna o produto desses dois valores quando invocada.
+
+3. **Invocando uma Função:**
+   Para chamar (ou invocar) uma função, você simplesmente usa o nome da função seguido por parênteses contendo quaisquer argumentos necessários.
+   ```javascript
+   let resultado = soma(2, 3); // resultado será 5
+   ```
+
+   ```javascript
+   let resultadoMultiplicacao = multiplica(4, 5); // resultadoMultiplicacao será 20
+   ```
+
+   No primeiro exemplo, a função `soma` é chamada com os argumentos `2` e `3`, e retorna `5`. No segundo exemplo, a função `multiplica` é chamada com os argumentos `4` e `5`, e retorna `20`.
+
+Esses são os conceitos básicos de funções em JavaScript. Elas são uma parte essencial da linguagem, permitindo que você escreva código modular e reutilizável, tornando seus programas mais organizados e fáceis de entender.
