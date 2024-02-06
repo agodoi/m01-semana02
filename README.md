@@ -155,7 +155,7 @@ Se seu PC não estiver com o WebGL ativado, siga [esse tutorial](https://pt.wiki
 
 No restante deste tutorial, passaremos nosso tempo nas funções preloadScenee createScene. No entanto, as funções initScenee updateSceneprovavelmente seriam usadas em um tutorial mais extenso.
 
-
+## Funções
 
 Uma função em JavaScript é um bloco de código reutilizável que executa uma tarefa específica. Ela é definida uma vez e pode ser chamada (ou invocada) múltiplas vezes, permitindo uma organização eficiente do código, modularidade e reutilização de lógica.
 
