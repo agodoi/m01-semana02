@@ -184,6 +184,10 @@ No restante deste tutorial, passaremos nosso tempo nas funções preloadScenee c
 
 Uma função em JavaScript é um bloco de código reutilizável que executa uma tarefa específica. Ela é definida uma vez e pode ser chamada (ou invocada) múltiplas vezes, permitindo uma organização eficiente do código, modularidade e reutilização de lógica.
 
+## Referência
+
+[W3School](https://www.w3schools.com/js/js_functions.asp)
+
 Existem dois tipos principais de funções em JavaScript: funções nomeadas e funções anônimas.
 
 1. **Funções Nomeadas:**
