@@ -41,8 +41,6 @@ Veja a figura a seguir para entender o que é cada item:
    <img alt="Boucing" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/fig01.png)">
 </picture>
 
-
-
 Outra característica importante é que suas variáveis assumem diferentes tipos de dados ao longo da programação. Em outras palavras, uma variável tipo INTEIRA pode assumir valores tipo FLOAT no meio do algoritmo.
 
 Um exemplo básico de JS é esse a seguir:
@@ -123,7 +121,7 @@ Voltando à questão sobre o tipo de dado das variáveis, **onde em JS não se d
 
 O movimento no jogo é na verdade uma enganação em nosso cérebro. O movimento ocorre a partir de imagens estáticas que se houver diferenças sultis na transição de uma para a outra, os nossos olhos vão **emendar** uma imagem na outra, parecendo que ela está se movimentando.
 
-Existe um valor mínimo de imagens estáticas por segundo para que não percebamos o truque. A percepção do truque se assemelha à cintilação que é variação da tonalidade de luz sobre uma imagem. 
+Existe um valor mínimo de imagens estáticas por segundo para que não percebamos o truque. A percepção do truque se assemelha à cintilação que é variação da tonalidade de luz sobre uma imagem. Veja tabela a seguir para entender melhor.
 
 
 <picture>
