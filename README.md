@@ -122,7 +122,6 @@ Aqui estão as linhas do código HTML/JavaScript com comentários explicativos:
 
 
 ```
-html
 <!DOCTYPE html>
 <html>
 	<head>
