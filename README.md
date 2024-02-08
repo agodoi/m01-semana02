@@ -188,6 +188,8 @@ Uma função em JavaScript é um bloco de código reutilizável que executa uma 
 
 [W3School](https://www.w3schools.com/js/js_functions.asp)
 
+## Tipos de Funções
+
 Existem dois tipos principais de funções em JavaScript: funções nomeadas e funções anônimas.
 
 1. **Funções Nomeadas:**
