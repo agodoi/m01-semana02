@@ -123,11 +123,14 @@ O movimento no jogo é na verdade uma enganação em nosso cérebro. O movimento
 
 Existe um valor mínimo de imagens estáticas por segundo para que não percebamos o truque. A percepção do truque se assemelha à cintilação que é variação da tonalidade de luz sobre uma imagem. Veja tabela a seguir para entender melhor.
 
-
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/tabela-fps-jogoveio.png">
    <img alt="Boucing" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/tabela-fps-jogoveio.png)">
 </picture>
+
+No seu projeto, usaremos bibliotecas em que você escolhe o FPS, mas nessa primeiro momento, isso não deve impactar na qualidade da sua solução.
+
+Veja esse exemplo de como fazer animações em JS:
 
 ## Spritesheets
 
@@ -240,8 +243,7 @@ No contexto dos exemplos fornecidos:
    Aqui, `let` é usado para declarar a variável `resultadoMultiplicacao` e atribuir a ela o resultado da chamada da função `multiplica(4, 5)`. Essa variável também está disponível apenas dentro do escopo onde foi declarada.
 
 
-
-Agora voltando ao assunto Funções
+Agora voltando ao assunto Funções...
    
 
 4. **Invocando uma Função:**
