@@ -309,3 +309,4 @@ Agora voltando ao assunto Funções...
    No primeiro exemplo, a função `soma` é chamada com os argumentos `2` e `3`, e retorna `5`. No segundo exemplo, a função `multiplica` é chamada com os argumentos `4` e `5`, e retorna `20`.
 
 Esses são os conceitos básicos de funções em JavaScript. Elas são uma parte essencial da linguagem, permitindo que você escreva código modular e reutilizável, tornando seus programas mais organizados e fáceis de entender.
+
