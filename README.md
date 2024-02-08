@@ -116,10 +116,55 @@ Voltando à questão sobre o tipo de dado das variáveis, **onde em JS não se d
 </html>
 ```
 
+A seguir, o mesmo código com cada linha comentada:
 
+Aqui estão as linhas do código HTML/JavaScript com comentários explicativos:
+
+
+```
+html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Introdução ao Java</title> <!-- Título da página -->
+		<meta charset="UTF-8"> <!-- Meta tag para definir o conjunto de caracteres UTF-8 -->
+	<head>
+
+	<body onload="iniciar()"> <!-- O evento 'onload' é acionado quando a página é carregada e chama a função 'iniciar()' -->
+		<script type="text/javascript">
+		function iniciar() { <!-- Declaração da função 'iniciar()' -->
+			document.write("<h1>" + document.title + "</h1>"); <!-- Escreve o título da página em um cabeçalho h1 -->
+			document.write("Olá pessoal!<br>"); <!-- Escreve uma mensagem -->
+			document.write("Você está usando o navegador " + navigator.appName + " na versão " + navigator.appVersion); <!-- Escreve informações sobre o navegador -->
+			x = "Oi, tudo bem?"; <!-- Declaração da variável 'x' como uma string -->
+			document.write("<h1>Variáveis em JavaScript</h1>"); <!-- Escreve um cabeçalho h1 -->
+			document.write("X está guardando string: " + x + "<br>" + "<br>"); <!-- Escreve o valor da variável 'x' -->
+			x = 1 + 1; <!-- Atualiza o valor da variável 'x' para a soma de 1 + 1 -->
+			document.write("X está guardando inteiro: " + x + "<br>"); <!-- Escreve o valor atualizado da variável 'x' -->
+			x = 3.14; <!-- Atualiza o valor da variável 'x' para 3.14 -->
+			document.write("X está guardando float: " + x + "<br>"); <!-- Escreve o valor atualizado da variável 'x' -->
+			a=10; <!-- Declaração da variável 'a' com o valor 10 -->
+			a += 2; <!-- Adiciona 2 ao valor da variável 'a' -->
+			b = a ** 2 <!-- Calcula o quadrado do valor da variável 'a' e atribui a 'b' -->
+			a > b <!-- Verifica se 'a' é maior que 'b', mas o resultado não é utilizado -->
+			document.write("a = " + a + "<br>"); <!-- Escreve o valor atualizado da variável 'a' -->
+			document.write("b = " + b + "<br>"); <!-- Escreve o valor da variável 'b' -->
+			SOMA = soma(2,3); <!-- Chama a função 'soma()' com os valores 2 e 3 e atribui o resultado a 'SOMA' -->
+			document.write("O resultado da soma = " + SOMA + "<br>"); <!-- Escreve o resultado da soma -->
+		}
+
+		function soma(a,b){ <!-- Declaração da função 'soma()' -->
+			return a + b; <!-- Retorna a soma dos parâmetros 'a' e 'b' -->
+		}
+		</script>
+	</body>
+</html>
+```
+
+Espero que isso ajude a entender o código!
 ## Movimentos em Jogos
 
-O movimento no jogo é na verdade uma enganação em nosso cérebro. O movimento ocorre a partir de imagens estáticas que se houver diferenças sultis na transição de uma para a outra, os nossos olhos vão **emendar** uma imagem na outra, parecendo que ela está se movimentando.
+O movimento no jogo é na verdade uma enganação em nosso cérebro. O movimento ocorre a partir de imagens estáticas nas quais, se houver diferenças sultis na transição de uma para a outra, os nossos olhos vão **emendar** uma imagem na outra, parecendo que ela está se movimentando.
 
 Existe um valor mínimo de imagens estáticas por segundo para que não percebamos o truque. A percepção do truque se assemelha à cintilação que é variação da tonalidade de luz sobre uma imagem. Veja tabela a seguir para entender melhor.
 
