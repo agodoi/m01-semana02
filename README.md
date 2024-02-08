@@ -129,7 +129,7 @@ Aqui estão as linhas do código HTML/JavaScript com comentários explicativos:
 		<meta charset="UTF-8"> <!-- Meta tag para definir o conjunto de caracteres UTF-8 -->
 	<head>
 
-	<body onload="iniciar()"> <!-- O evento 'onload' é acionado quando a página é carregada e chama a função 'iniciar()' -->
+	<body onload="iniciar()"> //O evento 'onload' é acionado quando a página é carregada e chama a função 'iniciar()'
 		<script type="text/javascript">
 		function iniciar() { <!-- Declaração da função 'iniciar()' -->
 			document.write("<h1>" + document.title + "</h1>"); <!-- Escreve o título da página em um cabeçalho h1 -->
