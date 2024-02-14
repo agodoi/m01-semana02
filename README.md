@@ -310,7 +310,9 @@ Etapas:
 5) Agora vamos aos exercícios:
 
 5.1) Salve a imagem do menino de chapéu como **menino-chapeu.png** no mesmo diretório criado recentemente;
+
 5.2) Volte no **código 5**, copie e salve esse código no arquivo em branco HTML e atualize seu navegador. Observe que a imagem do menino ficará animada;
+
 5.3) Trabalhe com os valores das variáveis
 ```
 width: 30px;
