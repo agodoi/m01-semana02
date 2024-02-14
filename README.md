@@ -276,29 +276,7 @@ Você deve estar perguntando o que é **let** no exemplo acima?
 
 No JavaScript, `let` é uma palavra-chave padrão para declarar uma variável localmente em um escopo de bloco. Isso significa que a variável declarada com `let` está disponível apenas dentro do bloco em que foi declarada, incluindo blocos de função, blocos `if`, `for`, `while`, entre outros.
 
-No contexto dos exemplos fornecidos:
-
-1. **Função Anônima:**
-   ```javascript
-   let multiplica = function(x, y) {
-       return x * y;
-   };
-   ```
-
-   Neste exemplo, `let` é usado para declarar a variável `multiplica` e atribuir a ela uma função anônima. A variável `multiplica` só pode ser acessada dentro do escopo onde foi declarada. É uma maneira moderna de declarar variáveis em JavaScript, que evita problemas de hoisting (içamento) associados à palavra-chave `var`.
-
-2. **Invocando a Função:**
-   ```javascript
-   let resultadoMultiplicacao = multiplica(4, 5);
-   ```
-
-   Aqui, `let` é usado para declarar a variável `resultadoMultiplicacao` e atribuir a ela o resultado da chamada da função `multiplica(4, 5)`. Essa variável também está disponível apenas dentro do escopo onde foi declarada.
-
-
-Agora voltando ao assunto Funções...
-   
-
-4. **Invocando uma Função:**
+3. **Invocando uma Função:**
    Para chamar (ou invocar) uma função, você simplesmente usa o nome da função seguido por parênteses contendo quaisquer argumentos necessários.
    ```javascript
    let resultado = soma(2, 3); // resultado será 5
