@@ -322,7 +322,7 @@ Etapas:
 		animation: animateSprite 1.5s steps(5) infinite;
 		```
 
-6) Refaça o código 5 usando a imagem a seguir:
+6) Refaça o **Código 5** usando a imagem a seguir:
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/gato.png">
@@ -330,7 +330,7 @@ Etapas:
 </picture>
 
 
-7) Refaça o código 5 usando a imagem a seguir:
+7) Refaça o **Código 5** usando a imagem a seguir:
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png">
