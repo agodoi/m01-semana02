@@ -309,15 +309,15 @@ Etapas:
 4) Vá no diretório que escolheu, e abra seu arquivo HTML usando o seu navegador de Internet preferido. Vai notar que seu arquivo será aberto mas nada acontecerá. Isso é normal já que o arquivo está em branco;
 5) Agora vamos aos exercícios:
 
-5.1) Salve a imagem do menino de chapéu como **menino-chapeu.png** no mesmo diretório criado recentemente;
+	5.1) Salve a imagem do menino de chapéu como **menino-chapeu.png** no mesmo diretório criado recentemente;
 
-5.2) Volte no **código 5**, copie e salve esse código no arquivo em branco HTML e atualize seu navegador. Observe que a imagem do menino ficará animada;
+	5.2) Volte no **código 5**, copie e salve esse código no arquivo em branco HTML e atualize seu navegador. Observe que a imagem do menino ficará animada;
 
-5.3) Trabalhe com os valores das variáveis
-```
-width: 30px;
-height: 200px;
-background-image: url('menino-chapeu.png');
-background-size: 200px 200px; /* largura total do spritesheet */
-animation: animateSprite 1.5s steps(5) infinite; /* 5 frames no spritesheet */
-```
+	5.3) Trabalhe com os valores das variáveis
+		```
+		width: 30px;
+		height: 200px;
+		background-image: url('menino-chapeu.png');
+		background-size: 200px 200px; /* largura total do spritesheet */
+		animation: animateSprite 1.5s steps(5) infinite; /* 5 frames no spritesheet */
+		```
