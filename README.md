@@ -334,5 +334,5 @@ Etapas:
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png">
-   <img alt="Gato" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png)">
+   <img alt="Homem Barba" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png)">
 </picture>
