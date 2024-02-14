@@ -313,12 +313,13 @@ Etapas:
 
 	5.2) Volte no **código 5**, copie e salve esse código no arquivo em branco HTML e atualize seu navegador. Observe que a imagem do menino ficará animada;
 
-	5.3) Trabalhe com os valores das variáveis
+	5.3) Trabalhe com os valores das variáveis a seguir e tome suas conclusões. Só não altere o **infinite**. O restante dos valores você deve alterar para ver o que acontece.
    
 		```
 		width: 30px;
 		height: 200px;
-		background-image: url('menino-chapeu.png');
-		background-size: 200px 200px; /* largura total do spritesheet */
-		animation: animateSprite 1.5s steps(5) infinite; /* 5 frames no spritesheet */
+		background-size: 200px 200px;
+		animation: animateSprite 1.5s steps(5) infinite;
 		```
+
+7) Refaça o código 5 usando uma das imagens a seguir. Você deve
