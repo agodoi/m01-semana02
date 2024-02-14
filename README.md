@@ -398,6 +398,6 @@ Caso o **Código 4** não seja o suficiente para o seu entendimento, tente esse:
 
 No final dessa instrução você deverá ter:
 
-* Diretório com 3 imagens do tipo **spritesheet**
+* 1 diretório com 3 imagens do tipo **spritesheet**
 * 3 códigos JS/HTML usando as 3 imagens (Exercício de Movimentos)
 * 1 código de exemplo de função (Exercício de Funções)
