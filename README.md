@@ -161,6 +161,8 @@ Aqui estão as linhas do código HTML/JavaScript com comentários explicativos:
 ```
 
 Espero que isso ajude a entender o código!
+
+
 ## Movimentos em Jogos
 
 O movimento no jogo é na verdade uma enganação em nosso cérebro. O movimento ocorre a partir de imagens estáticas nas quais, se houver diferenças sultis na transição de uma para a outra, os nossos olhos vão **emendar** uma imagem na outra, parecendo que ela está se movimentando.
