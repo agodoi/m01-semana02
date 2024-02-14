@@ -297,7 +297,7 @@ No JavaScript, `let` é uma palavra-chave padrão para declarar uma variável lo
 
 Esses são os conceitos básicos de funções em JavaScript. Elas são uma parte essencial da linguagem, permitindo que você escreva código modular e reutilizável, tornando seus programas mais organizados e fáceis de entender.
 
-## Exercícios
+## Exercícios de Movimentos
 
 Vamos fazer simulações usando o Visual Studio Code (VS Code) da Microsoft. 
 
@@ -336,3 +336,9 @@ Etapas:
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png">
    <img alt="Homem Barba" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png)">
 </picture>
+
+## Exercícios de Funções
+
+8) Usando o **Código 4** de exemplo, elabore uma função em JS executada no navegador de Internet. Salve seu código como HTML e ao abrir o navegador de Internet Chrome, abra o **DevTools** usando **ctrl + shigt + j** para acompanhar o console do DevTools. O Console é a tela que todo desenvolvedor usa para debuggar seu código.
+
+9) 
