@@ -191,7 +191,7 @@ Veja esse exemplo de como fazer animações em JS:
 
 Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas.
 
-O exemplo a seguir, tem uma imagem do tipo spritesheets chamada **menino-chapeu.png**. A ideia desse código é enquadrar o menino-chapeu.png numa sequência que resulte num movimento. 
+O exemplo a seguir, tem-se uma imagem do tipo spritesheets chamada **menino-chapeu.png**. A ideia desse código é enquadrar o menino-chapeu.png numa sequência que resulte num movimento. 
 
 
 <picture>
@@ -199,6 +199,7 @@ O exemplo a seguir, tem uma imagem do tipo spritesheets chamada **menino-chapeu.
    <img alt="Menino-chapeu" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/menino-chapeu.png)">
 </picture>
 
+Vamos usar essa imagem no código a seguir para fazê-la movimentar usando Spritesheets.
 
 ### Código 5
 
@@ -231,14 +232,6 @@ O exemplo a seguir, tem uma imagem do tipo spritesheets chamada **menino-chapeu.
 </body>
 </html>
 ```
-
-A marcação HTML e o código JavaScript acima criarão uma tela para renderizar o jogo. Como estamos usando **Phaser.AUTO**, talvez não estejamos usando uma tela, mas sim WebGL, mas vamos nos referir a ela como tela. O que é WebGL?
-
-*WebGL é uma API em JavaScript, disponível a partir do novo elemento canvas da HTML5, que oferece suporte para renderização de gráficos 2D e gráficos 3D. Pode ser implementado em uma aplicação web sem a necessidade de plug-ins no navegador. A especificação foi lançada, sob versão 1.0, em 10 de fevereiro de 201.*
-Se seu PC não estiver com o WebGL ativado, siga [esse tutorial](https://pt.wikihow.com/Ativar-o-WebGL) para ativá-lo.
-
-
-No restante deste tutorial, passaremos nosso tempo nas funções preloadScenee createScene. No entanto, as funções initScenee updateSceneprovavelmente seriam usadas em um tutorial mais extenso.
 
 ## Funções
 
@@ -316,4 +309,13 @@ Etapas:
 4) Vá no diretório que escolheu, e abra seu arquivo HTML usando o seu navegador de Internet preferido. Vai notar que seu arquivo será aberto mas nada acontecerá. Isso é normal já que o arquivo está em branco;
 5) Agora vamos aos exercícios:
 
-5.1) 
+5.1) Salve a imagem do menino de chapéu como **menino-chapeu.png** no mesmo diretório criado recentemente;
+5.2) Volte no **código 5**, copie e salve esse código no arquivo em branco HTML e atualize seu navegador. Observe que a imagem do menino ficará animada;
+5.3) Trabalhe com os valores das variáveis
+```
+width: 30px;
+height: 200px;
+background-image: url('menino-chapeu.png');
+background-size: 200px 200px; /* largura total do spritesheet */
+animation: animateSprite 1.5s steps(5) infinite; /* 5 frames no spritesheet */
+```
