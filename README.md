@@ -322,4 +322,17 @@ Etapas:
 		animation: animateSprite 1.5s steps(5) infinite;
 		```
 
-7) Refaça o código 5 usando uma das imagens a seguir. Você deve
+7) Refaça o código 5 usando a imagem a seguir:
+
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/gato.png">
+   <img alt="Gato" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/gato.png)">
+</picture>
+
+
+8) Refaça o código 5 usando a imagem a seguir:
+
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png">
+   <img alt="Gato" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/homem-barba.png)">
+</picture>
