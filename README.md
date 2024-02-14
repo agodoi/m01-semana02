@@ -339,6 +339,57 @@ Etapas:
 
 ## Exercícios de Funções
 
-8) Usando o **Código 4** de exemplo, elabore uma função em JS executada no navegador de Internet. Salve seu código como HTML e ao abrir o navegador de Internet Chrome, abra o **DevTools** usando **ctrl + shigt + j** para acompanhar o console do DevTools. O Console é a tela que todo desenvolvedor usa para debuggar seu código.
+8) Usando o **Código 4** de exemplo, vamos elaborar uma função em JS executada no navegador de Internet. Atente-se em salvar seu código como HTML e ao abri-lo no navegador de Internet Chrome, abra o **DevTools** usando o atalho do teclado **ctrl + shift + j**. Após abrir o DevTools, clique no menu horizontal **CONSOLE** para acompanhar as saídas do seu código. O Console é a tela que todo desenvolvedor usa para debuggar seu código.
 
-9) 
+Seu código precisa ter uma função e um objeto. Use sua criatividade e crie!
+
+Caso o **Código 4** não seja o suficiente para o seu entendimento, tente esse:
+
+### Código 6
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Introdução ao Java</title>
+		<meta charset="UTF-8">
+	<head>
+
+    <body onload="iniciar()">
+        <script type="text/javascript">
+            function iniciar(){
+
+            /* Declare a função 'minhaFunção' */
+
+            function minhaFuncao(objeto) {
+            objeto.marca = "Toyota";
+            }
+
+            /*
+            * Declare a variável 'meucarro';
+            * crie e inicialize um novo Objeto;
+            * atribua referência para 'meucarro'
+            */
+
+            var meucarro = {
+            marca: "Honda",
+            modelo: "Accord",
+            ano: 1998,
+            };
+
+            /* Exibe 'Honda' */
+            console.log(meucarro.marca);
+
+            /* Passe a referência do objeto para a função */
+            minhaFuncao(meucarro);
+
+            /*
+            * Exibe 'Toyota' como valor para a propriedade 'marca'
+            * do objeto, mudado pela função.
+            */
+            console.log(meucarro.marca);
+        }
+        </script>
+	</body>
+</html>
+```
