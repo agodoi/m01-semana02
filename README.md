@@ -14,7 +14,7 @@ HTML --> linguagem estática para escrever documentos. Antigamente, a Internet e
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/088b90c_11088-1c3ely2.wvaxo2mx6r.png">
-   <img alt="Boucing" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/088b90c_11088-1c3ely2.wvaxo2mx6r.png)">
+   <img alt="Página HTML Estática" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/088b90c_11088-1c3ely2.wvaxo2mx6r.png)">
 </picture>
 
 
@@ -38,12 +38,14 @@ Veja a figura a seguir para entender o que é cada item:
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/fig01.png">
-   <img alt="Boucing" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/fig01.png)">
+   <img alt="Fig01" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/fig01.png)">
 </picture>
 
 Outra característica importante é que suas variáveis assumem diferentes tipos de dados ao longo da programação. Em outras palavras, uma variável tipo INTEIRA pode assumir valores tipo FLOAT no meio do algoritmo.
 
 Um exemplo básico de JS é esse a seguir:
+
+### Código 1
 
 ```
 <!DOCTYPE html>
@@ -66,6 +68,9 @@ Um exemplo básico de JS é esse a seguir:
 
 Adicionando um **método write** no **objeto document** para puxar o nome do navegador e sua versão.
 
+
+### Código 2
+
 ```
 <!DOCTYPE html>
 <html>
@@ -87,6 +92,9 @@ Adicionando um **método write** no **objeto document** para puxar o nome do nav
 ```
 
 Voltando à questão sobre o tipo de dado das variáveis, **onde em JS não se define que tipo de variável está sendo declarada**, segue um exemplo:
+
+
+### Código 3
 
 ```
 <!DOCTYPE html>
@@ -120,6 +128,7 @@ A seguir, o mesmo código com cada linha comentada:
 
 Aqui estão as linhas do código HTML/JavaScript com comentários explicativos:
 
+### Código 4
 
 ```
 <!DOCTYPE html>
@@ -171,7 +180,7 @@ Existe um valor mínimo de imagens estáticas por segundo para que não percebam
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/tabela-fps-jogoveio.png">
-   <img alt="Boucing" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/tabela-fps-jogoveio.png)">
+   <img alt="TabelaFPS" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/tabela-fps-jogoveio.png)">
 </picture>
 
 No seu projeto, usaremos bibliotecas em que você escolhe o FPS, mas nessa primeiro momento, isso não deve impactar na qualidade da sua solução.
@@ -182,42 +191,47 @@ Veja esse exemplo de como fazer animações em JS:
 
 Em computação gráfica, um **spritesheets** ou **Atlas de Textura** é uma imagem que contém várias imagens menores, geralmente agrupadas para reduzir as dimensões gerais. Um atlas pode consistir em imagens de tamanho uniforme ou imagens de dimensões variadas.
 
-No seu computador, usando o Visual Studio, crie um novo arquivo com o nome **index.html**. Dentro deste arquivo index.html , inclua o seguinte código:
+O exemplo a seguir, tem uma imagem do tipo spritesheets chamada **menino-chapeu.png**. A ideia desse código é enquadrar o menino-chapeu.png numa sequência que resulte num movimento. 
+
+
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/m01-semana02/blob/main/imgs/menino-chapeu.png">
+   <img alt="Menino-chapeu" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/m01-semana02/blob/main/imgs/menino-chapeu.png)">
+</picture>
+
+
+### Código 5
 
 ```
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="//cdn.jsdelivr.net/npm/phaser@3.24.1/dist/phaser.min.js"></script>
-    </head>
-    <body>
-        <div id="game"></div>
-        <script>
+<head>
+    <title>Spritesheet Animation</title>
+    <style>
+        #sprite {
+            width: 30px;
+            height: 200px;
+            background-image: url('menino-chapeu.png');
+            background-size: 200px 200px; /* largura total do spritesheet */
+            animation: animateSprite 1.5s steps(5) infinite; /* 5 frames no spritesheet */
+        }
 
-            const phaserConfig = {
-                type: Phaser.AUTO,
-                parent: "game",
-                width: 1280,
-                height: 720,
-                scene: {
-                    init: initScene,
-                    preload: preloadScene,
-                    create: createScene,
-                    update: updateScene
-                }
-            };
+        @keyframes animateSprite {
+            from { background-position: 0 0; }
+            to { background-position: -500px 0; } /* desloca o spritesheet horizontalmente */
+        }
+    </style>
+</head>
+<body>
+    <div id="sprite"></div>
 
-            const game = new Phaser.Game(phaserConfig);
-
-            function initScene() {}
-            function preloadScene() {}
-            function createScene() {}
-            function updateScene() {}
-
-        </script>
-    </body>
+    <script>
+        // Adicione o código JavaScript aqui, se necessário
+    </script>
+</body>
 </html>
 ```
+
 A marcação HTML e o código JavaScript acima criarão uma tela para renderizar o jogo. Como estamos usando **Phaser.AUTO**, talvez não estejamos usando uma tela, mas sim WebGL, mas vamos nos referir a ela como tela. O que é WebGL?
 
 *WebGL é uma API em JavaScript, disponível a partir do novo elemento canvas da HTML5, que oferece suporte para renderização de gráficos 2D e gráficos 3D. Pode ser implementado em uma aplicação web sem a necessidade de plug-ins no navegador. A especificação foi lançada, sob versão 1.0, em 10 de fevereiro de 201.*
@@ -290,3 +304,16 @@ No JavaScript, `let` é uma palavra-chave padrão para declarar uma variável lo
 
 Esses são os conceitos básicos de funções em JavaScript. Elas são uma parte essencial da linguagem, permitindo que você escreva código modular e reutilizável, tornando seus programas mais organizados e fáceis de entender.
 
+## Exercícios
+
+Vamos fazer simulações usando o Visual Studio Code (VS Code) da Microsoft. 
+
+Etapas:
+
+1) Abra o VS Code;
+2) Clique em **Arquivo /File** e clique em **New Text File/Novo Arquivo Texto**;
+3) Salve esse arquivo texto em um diretório conhecido e como **HTML** e coloque o nome desejado que achar melhor;
+4) Vá no diretório que escolheu, e abra seu arquivo HTML usando o seu navegador de Internet preferido. Vai notar que seu arquivo será aberto mas nada acontecerá. Isso é normal já que o arquivo está em branco;
+5) Agora vamos aos exercícios:
+
+5.1) 
